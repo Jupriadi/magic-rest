@@ -22,12 +22,13 @@ It was inspired by the flexible API style of [Strapi](https://strapi.io), and de
 ## 📦 Installation
 
 ```bash
-go get github.com/jupriadi/mgaicrest@latest
+go get github.com/jupriadi/mgaicrest@latest 
 
-
+```
 
 # 🧠 Quick Example (using Gin + GORM)
 
+```bash 
 package main
 
 import (
@@ -81,7 +82,7 @@ func main() {
 
     r.Run(":8080")
 }
-
+```
 
 ## ✅ Example requests:
 
@@ -96,7 +97,7 @@ GET /barang?groupby=category_id
 ⚙️ Configuration Options
 
 magicrest behavior is controlled using the Options struct:
-
+```bash
 type Options struct {
     SearchField       string              // Field used for search (optional)
     OrderBy           string              // Default order if not specified
@@ -135,8 +136,12 @@ Example response:
     }
   }
 }
+```
+
 
 # 🧩 Query Parameters Overview
+
+```bash
 Parameter	Description	Example
 page	Page number	?page=2
 pageSize	Items per page	?pageSize=20
@@ -162,6 +167,7 @@ if err != nil {
 
 fmt.Println(result.Data)
 fmt.Println(result.Meta)
+```
 
 🪪 License
 
