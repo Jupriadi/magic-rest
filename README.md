@@ -1,6 +1,6 @@
-# 🧩 readhelper
+# 🧩 MAGIC REST
 
-**readhelper** is a lightweight Go package that simplifies reading data from databases using [GORM](https://gorm.io) — with built-in support for **dynamic filtering**, **pagination**, **search**, **sorting**, **preloading**, and **grouping**, all through query parameters.
+**MAGIC REST** is a lightweight Go package that simplifies reading data from databases using [GORM](https://gorm.io) — with built-in support for **dynamic filtering**, **pagination**, **search**, **sorting**, **preloading**, and **grouping**, all through query parameters.
 
 It was inspired by the flexible API style of [Strapi](https://strapi.io), and designed to work seamlessly with [Gin](https://gin-gonic.com) or any Go HTTP framework.
 
@@ -22,4 +22,4 @@ It was inspired by the flexible API style of [Strapi](https://strapi.io), and de
 ## 📦 Installation
 
 ```bash
-go get github.com/jupriadi-dev/readhelper@latest
+go get github.com/jupriadi/mgaicrest@latest
