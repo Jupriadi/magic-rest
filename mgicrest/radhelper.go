@@ -1,5 +1,5 @@
 // package readhelper
-package readhelper
+package magicrest
 
 import (
 	"errors"
