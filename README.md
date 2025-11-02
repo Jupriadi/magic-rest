@@ -33,7 +33,7 @@ package main
 
 import (
     "github.com/gin-gonic/gin"
-    "github.com/jupriadi-dev/magicrest"
+    "github.com/jupriadi/magicrest"
     "gorm.io/driver/postgres"
     "gorm.io/gorm"
 )
