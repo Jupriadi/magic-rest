@@ -22,7 +22,7 @@ It was inspired by the flexible API style of [Strapi](https://strapi.io), and de
 ## 📦 Installation
 
 ```bash
-go get github.com/jupriadi/mgaicrest@latest 
+go get github.com/Jupriadi/mgaic-rest@latest 
 
 ```
 
@@ -33,7 +33,7 @@ package main
 
 import (
     "github.com/gin-gonic/gin"
-    "github.com/jupriadi/magicrest"
+    "github.com/Jupriadi/magic-rest"
     "gorm.io/driver/postgres"
     "gorm.io/gorm"
 )
