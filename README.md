@@ -22,7 +22,7 @@ It was inspired by the flexible API style of [Strapi](https://strapi.io), and de
 ## 📦 Installation
 
 ```bash
-go get github.com/Jupriadi/mgaic-rest@latest 
+go get github.com/Jupriadi/magic-rest@latest 
 
 ```
 
